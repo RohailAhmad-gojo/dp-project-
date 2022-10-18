@@ -1,0 +1,81 @@
+#team{
+    padding: 5% 0;
+    background-color: #bababa81;
+}
+.teamHeader{
+    text-align: center;
+    padding-bottom: 3% 0;
+}
+.teamHeader h1{
+    color: #ed9940;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.teamText{
+    text-align: center;
+    padding: 3% 0;
+}
+.teamText img{
+    height: 175px;
+    border: 2px gray solid;
+    border-radius: 50%;
+    padding: 2px;
+}
+.teamText h2{
+    color: #ed9940;
+    font-size: 2rem;
+    margin: 2% 0;
+    text-transform: uppercase;
+}
+.teamText h4{
+    color: rgb(54, 54, 54);
+    font-size: 1.3rem;
+}
+.TeamPara{
+    text-align: center;
+    width: 230px;
+}
+.teamText p{
+    text-align: center;
+    margin: 6px 0;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    padding: 2% 0;
+}
+.teamIcon{
+    border-top: 1px rgb(34, 34, 34) solid;
+    padding: 2% 0;
+    width: 90%;
+}
+.teamIcons{
+    margin: 0 10px;
+    padding: 8px;
+    font-size: 2.5rem !important;
+    color: rgb(34, 34, 34);
+    border: 1px rgb(34, 34, 34) solid;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.teamIcons:hover{
+    transition: all 0.3s;
+    padding: 12px;
+    font-size: 2.5rem !important;
+    color: #ed9940;
+    border: 1px #ed9940 solid;
+}
+.teamIcons:active{
+    color: #000;
+    border: 1px #000 solid;
+}
+@media screen and (max-width: 830px) {
+    .teamtHeader h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .teamHeader h1{
+        font-size: 2.5rem;
+    }
+    
+}

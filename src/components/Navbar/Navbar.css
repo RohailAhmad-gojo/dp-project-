@@ -1,0 +1,135 @@
+.navBar{
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+}
+.navBarConatiner{
+    display: flex;
+    align-items: center;
+}
+.navBarLogo{
+    display: flex;
+}
+.navBarLogo img{
+    height: 70px;
+    padding: 0 2px;
+}
+.navBarLogo h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ed9940;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.navBarLogo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    position: absolute;
+    top: 40px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.navBarList ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navBarList li{
+    list-style: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.navBarList a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+}
+.navBarList li:hover{
+    color: #ed9940;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.navBarList li:active{
+    color: black;
+}
+.navBarList li:visited{
+    color: orange;
+}
+.navBarBtn{
+    text-align: center;
+}
+.btn{
+    border: 1px solid #ed9940 !important;
+    padding: 10px 65px !important;
+    color: #ed9940 !important;
+    white-space: nowrap;
+    transition: all 0.3s !important;
+}
+.btn:hover{
+    border: 2px solid #fff !important;
+    padding: 2px;
+    color: #fff !important;
+    background-color: #ed9940 !important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+/* ==================media========================================= */
+@media screen and (max-width: 1233px) {
+    .navBarList a{
+        font-size: 1.2rem;
+    }
+    .btn{
+     padding: 8px 40px !important;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .navBarLogo img{
+        height: 60px;
+    }
+    .navBarLogo h1{
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+    .navBarLogo h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.7rem;
+        font-weight: 200;
+        position: absolute;
+        top: 40px;
+        text-transform: capitalize;
+    }
+}
+@media screen and (max-width: 920px) {
+    .btn{
+        padding: 8px 30px !important;
+       }
+    .navBarList a{
+        font-size: 1rem;
+    }
+    .navBarLogo img{
+        height: 55px;
+    }
+    .navBarLogo h1{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+    .navBarLogo h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 200;
+        position: absolute;
+        top: 40px;
+        text-transform: capitalize;
+    }
+}
+@media screen and (max-width: 830px) {
+    .navBarList{
+        display: none;
+    }
+    .btn{
+        padding: 0 10px;
+       }
+}

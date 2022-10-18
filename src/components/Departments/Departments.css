@@ -1,0 +1,49 @@
+#departments{
+    padding: 5% 0;
+    background-color: #bababa81;
+}
+.departmentsText{
+    padding: 20px;
+    border-bottom: 4px solid #ed9940;
+    display: flex;
+    align-items: center;
+}
+.departmentsPara h2{
+    color: #ed9940;
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.departmentsPara p{
+    color: rgb(56, 56, 56);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.departmentsPara p span{
+    font-size: 1.3rem;
+    color: #ed9940;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+.departmentsBtn{
+    margin-top: 20px !important;
+}
+.departmentsImg{
+    text-align: center;
+}
+.departmentsImg img{
+    width: 330px;
+    border-radius: 7px;
+    border: 1px solid rgb(76, 76, 76);
+    padding: 3px;
+}
+@media screen and (max-width: 730px) {
+    .departmentsPara{
+        text-align: center;
+    }   
+}
+@media screen and (max-width: 400px) {
+    .departmentsImg img{
+        width: 250px;
+    }
+}

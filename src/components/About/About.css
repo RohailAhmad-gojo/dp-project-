@@ -1,0 +1,80 @@
+#about{
+    padding: 5% 0;
+    background-color: #bababa81;
+}
+.AboutHeader{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.AboutHeader h1{
+    color: #ed9940;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.aboutText p{
+    font-size: 1.2rem;
+    color: rgb(56, 56, 56);
+    padding-bottom: 20px;
+}
+.aboutText p span{
+    font-size: 2rem;
+    color: #ed9940;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+/* ==============MEDIA============*/
+@media screen and (max-width: 1260px) {
+    .aboutImg img{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .aboutImg img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .aboutImg img{
+        width: 350px;
+    }
+    .aboutText p{
+        font-size: 1rem;
+    }
+    .aboutText p span{
+        font-size: 1.6rem;
+    }
+    .aboutText{
+        text-align: center;
+    }
+    .aboutImg{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 830px) {
+    .aboutImg img{
+        width: 300px;
+    }
+    .aboutText p{
+        font-size: 0.8rem;
+    }
+    .aboutText p span{
+        font-size: 1.2rem;
+    }
+    .AboutHeader h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .aboutImg img{
+        width: 200px;
+    }
+    .AboutHeader h1{
+        font-size: 2.5rem;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .aboutImg{
+        display: none;
+    }
+}

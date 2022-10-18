@@ -1,0 +1,42 @@
+#join{
+    background-image: url("./img/joinbg.jpg");
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.joinOverlay{
+    background-color: rgba(33, 33, 33, 0.515);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinHeader{
+    text-align: center;
+}
+.joinHeader h1{
+    color: #ed9940;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 2% 0;
+}
+.joinHeader p{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 3%;
+}
+@media screen and (max-width: 475px) {
+   .joinHeader h1{
+     font-size: 3rem;
+   }
+   .joinHeader p{
+     font-size: 0.8rem;
+   }
+   #join{
+     height: 430px;
+   }
+}
